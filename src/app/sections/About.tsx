@@ -33,7 +33,7 @@ export default function About() {
           variant={'outline'}
           className="w-fit rounded-[20px] font-bold"
         >
-          <Link href="/about">Learn More</Link>
+          <Link href="/bout">Learn More</Link>
         </Button>
       </div>
       <img
