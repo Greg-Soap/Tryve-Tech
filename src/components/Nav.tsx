@@ -32,7 +32,7 @@ const links: NavLink[] = [
   },
   {
     title: 'Who We Are',
-    href: '/about',
+    href: '/bout',
   },
   {
     title: 'Our Services',
