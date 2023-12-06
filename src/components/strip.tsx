@@ -1,0 +1,19 @@
+import React from 'react';
+
+const Strip: React.FC = () => {
+  return (
+    <div className="flex max-w-full overflow-hidden">
+      {Array.from({ length: 25 }, (_, index) => (
+        <div
+          key={index}
+          className="flex items-center gap-6 whitespace-nowrap bg-[#5466db14] px-4 py-6 text-base font-[500] uppercase text-[#001EE075]"
+        >
+          Tryve tech
+          <span className="h-2 w-2 rounded-full bg-[#425af475]" />
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Strip;
