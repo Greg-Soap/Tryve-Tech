@@ -19,7 +19,7 @@ export default function ServicePreview() {
           Let’s boost your sales off the roof using our premium services easier
         </h1>
       </div>
-      <div className="flex w-full max-w-full  flex-wrap items-center justify-center gap-8 pt-3 max-sm:flex-col md:pt-6 lg:justify-between lg:gap-10 lg:pt-12">
+      <div className="flex w-full max-w-full  flex-wrap items-center justify-center gap-8 pt-3  md:pt-6 lg:justify-between lg:gap-10 lg:pt-12">
         {SERVICE_PREVIEW.map((t, idx) => (
           <ServiceCard
             key={idx}

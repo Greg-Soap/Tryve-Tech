@@ -19,7 +19,7 @@ export default function ServiceCard({
 }: IService) {
   return (
     <div
-      className={`flex w-fit max-sm:w-full ${
+      className={`flex w-fit max-sm:w-2/5 ${
         orientation === 'vertical' ? 'flex-col' : 'flex-row items-center'
       }
      gap-3 rounded-[16px] `}
