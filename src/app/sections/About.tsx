@@ -11,7 +11,8 @@ export default function About() {
     >
       <div className="flex w-full flex-col gap-4 sm:w-5/12 lg:w-[525px]">
         <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
-          Our Commitment to Teamwork, Trust, and Integrity
+          Our <span className="text-primary">Commitment</span> to Teamwork,
+          Trust, and Integrity
         </h1>
         <p className="text-base">
           We recognize that the collective strength of our team far surpasses

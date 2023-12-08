@@ -14,7 +14,7 @@ export default function Hero() {
           Tryve Technologies
         </h2>
         <h1 className="font-google text-3xl lg:text-[60px] lg:leading-[80px]">
-          Gateway to Digital Success
+          Gateway to <span className="text-primary">Digital</span> Success
         </h1>
         <p className="text-base">
           Unleash the power of tailored digital solutions designed to elevate

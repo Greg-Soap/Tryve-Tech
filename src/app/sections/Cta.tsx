@@ -12,7 +12,8 @@ export default function Cta() {
         </h2>
 
         <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
-          A Right Choice that Makes the Difference
+          A Right Choice that Makes the{' '}
+          <span className="text-primary">Difference</span>
         </h1>
         <p className="text-base">
           Choosing Tryve technologies is not just a business decision; it&apos;s

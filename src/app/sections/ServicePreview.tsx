@@ -16,7 +16,8 @@ export default function ServicePreview() {
           Here are also some of our Organic features
         </h2>
         <h1 className="font-google text-3xl leading-[45px] md:leading-[52.4px] lg:text-[40px]">
-          Let’s boost your sales off the roof using our premium services easier
+          Let’s boost your sales off the roof using our{' '}
+          <span className="text-primary">premium </span>services easier
         </h1>
       </div>
       <div className="flex w-full max-w-full  flex-wrap items-center justify-center gap-8 pt-3  md:pt-6 lg:justify-between lg:gap-10 lg:pt-12">
