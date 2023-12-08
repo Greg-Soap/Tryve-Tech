@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="flex gap-6 max-md:flex-col lg:gap-12">
             {footerLinks.map((column) => (
               <div key={column.column} className="flex-1">
-                <h2 className="mb-4 font-mcqueen text-base font-bold capitalize text-white">
+                <h2 className="font-google mb-4 text-base font-bold capitalize text-white">
                   {column.data.leadText}
                 </h2>
                 <ul>
@@ -62,17 +62,17 @@ export default function Footer() {
               </div>
             ))}
             <div className="flex w-full flex-col gap-8 sm:w-[240px]">
-              <div className="flex flex-col gap-[18px]">
-                <h2 className="font-mcqueen font-bold">
+              {/* <div className="flex flex-col gap-[18px]">
+                <h2 className="font-google font-bold">
                   Sign up to our Newsletter
                 </h2>
                 <Input
                   placeholder="Enter Email Address"
                   className="rounded-[12px] border border-white border-opacity-20 bg-white bg-opacity-[15]"
                 />
-              </div>
+              </div> */}
               <div className="flex flex-col gap-[18px]">
-                <h2 className="font-mcqueen font-bold">Address</h2>
+                <h2 className="font-google font-bold">Address</h2>
                 <p className="text-sm font-light">
                   1 Unity Estate, Igbo-Elerin, Ojo, Lagos State, Nigeria
                 </p>

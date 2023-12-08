@@ -1,6 +1,6 @@
 import { Header } from '@/components/Nav';
 import './globals.css';
-import { Quicksand } from 'next/font/google';
+import { Lato, Quicksand, Roboto } from 'next/font/google';
 import localFont from 'next/font/local';
 import { ThemeProvider } from '@/components/theme-provider';
 import Footer from '@/components/Footer';
@@ -24,7 +24,7 @@ export const metadata = {
   twitterImage: '/tryve_favicon.ico',
 };
 
-const quicksand = Quicksand({ subsets: ['latin'] });
+const roboto = Lato({ subsets: ['latin'], weight: ['400', '700'] });
 const mcQueen = localFont({
   src: [
     {
@@ -35,6 +35,21 @@ const mcQueen = localFont({
     { path: '../assets/fonts/McQueen.ttf', weight: '700', style: 'normal' },
   ],
   variable: '--font-mcqueen',
+});
+const google = localFont({
+  src: [
+    {
+      path: '../assets/fonts/ProductSans-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../assets/fonts/ProductSans-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-google',
 });
 export default function RootLayout({
   children,
@@ -57,8 +72,13 @@ export default function RootLayout({
           sizes="512x512"
         />
       </head>
-      <body className={`${quicksand.className} ${mcQueen.variable}`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+      <body
+        className={`
+        
+          ${google.variable}
+           font-google transition-all duration-300`}
+      >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
           {children}
           <Footer />

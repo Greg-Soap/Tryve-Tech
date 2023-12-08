@@ -4,12 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://db.onlinewebfonts.com/c/b7b730cb28b0f5c0025b1247b65ea345?family=McQueen+Grotesk+Trial+Medium');
+@import url('https://cdn.jsdelivr.net/gh/mortezaom/google-sans-cdn@master/fonts.css');
+
 * {
   scroll-behavior: smooth;
 }
-body {
-  font-family: 'Quicksand', sans-serif;
-}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -46,7 +46,7 @@ body {
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 0 0% 5%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;

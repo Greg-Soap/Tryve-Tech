@@ -31,7 +31,7 @@ export default function Contact() {
         <h2 className="text-sm font-light uppercase tracking-[3.5px] text-section max-sm:text-sm">
           contact us
         </h2>
-        <h1 className="font-mcqueen text-3xl leading-[45px]  md:leading-[52.4px] lg:text-[40px]">
+        <h1 className="font-google text-3xl leading-[45px]  md:leading-[52.4px] lg:text-[40px]">
           Reach out and
           <span className="text-secondary"> Connect</span> with us
         </h1>

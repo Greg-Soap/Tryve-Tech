@@ -35,7 +35,7 @@ export default function ServiceCard({
         <p className=" w-fit rounded-[22px] bg-secondary px-3 py-2 text-sm font-bold text-primary">
           {text}
         </p>{' '}
-        <span className="font-mcqueen text-xl font-light leading-[33px]  ">
+        <span className="font-google text-xl font-light leading-[33px]  ">
           {title}
         </span>
       </div>

@@ -10,7 +10,7 @@ export default function About() {
       className="container flex scroll-m-20 items-center justify-between max-md:flex-col max-md:gap-4 max-md:px-5 max-md:py-6 md:min-h-[600px]  lg:min-h-[800px] lg:flex-row-reverse"
     >
       <div className="flex w-full flex-col gap-4 sm:w-5/12 lg:w-[525px]">
-        <h1 className="font-mcqueen text-3xl lg:text-[40px] lg:leading-[52px]">
+        <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
           Our Commitment to Teamwork, Trust, and Integrity
         </h1>
         <p className="text-base">

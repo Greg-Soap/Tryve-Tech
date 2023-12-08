@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import AboutCoreValues from '@/assets/data/AboutData';
 import BoardOfDirectives from '@/assets/data/BoardData';
 import Help from '../sections/Help';
@@ -8,7 +7,7 @@ export default function page() {
     <main className="flex min-h-screen flex-col items-center justify-between pt-[75px] md:pt-[150px]">
       <section className="container flex flex-col gap-10 max-md:px-5 max-md:py-6 md:min-h-[500px]   lg:min-h-[800px] lg:gap-16">
         <div className="flex w-full flex-col gap-7 sm:w-2/3 lg:w-[915px]">
-          <h1 className="font-mcqueen text-3xl lg:text-[64px] lg:leading-[84px]">
+          <h1 className="font-google text-3xl lg:text-[64px] lg:leading-[84px]">
             Unveiling Our
             <span className="text-primary">Journey: </span> Crafting Excellence
             in
@@ -35,12 +34,12 @@ export default function page() {
           className="rounded-[22px] sm:w-1/2 lg:w-[518px]"
         />
         <div className="flex w-full flex-col gap-4 sm:w-5/12 lg:w-[525px]">
-          <h1 className="font-mcqueen text-3xl lg:text-[40px] lg:leading-[52px]">
+          <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
             Cultivating <span className="text-primary">values </span> and
             Defining our
             <span className="text-secondary"> Purpose</span>
           </h1>
-          <p className="font-mcqueen text-xl font-medium">Who we are</p>
+          <p className="font-google text-xl font-medium">Who we are</p>
           <p className="text-base">
             Established in 2019, we set out to revolutionize finance in Nigeria
             and beyond. We specialize in various financial services, from
@@ -51,11 +50,11 @@ export default function page() {
             We are not just a company; we&apos;re a dynamic force, dedicated to
             guiding you towards financial ease and comfort.
           </p>
-          <p className="font-mcqueen text-xl font-medium">Our Vision</p>
+          <p className="font-google text-xl font-medium">Our Vision</p>
           <p className="text-base">
             To be Africa’s foremost financial services provider
           </p>
-          <p className="font-mcqueen text-xl font-medium">Our Mission</p>
+          <p className="font-google text-xl font-medium">Our Mission</p>
           <p className="text-base">
             Empower our clients to achieve financial prosperity and security by
             providing innovative financial solutions.
@@ -72,7 +71,7 @@ export default function page() {
       </section>
       <section className="container flex flex-col gap-10 max-md:px-5 max-md:py-6 md:min-h-[700px] md:py-5   lg:min-h-[700px] ">
         <div className="flex w-full flex-col gap-4 ">
-          <h1 className="font-mcqueen text-3xl lg:text-[40px] lg:leading-[52px]">
+          <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
             Our <span className="text-primary">Core </span>
             <span className="text-secondary"> Values</span>
           </h1>
@@ -92,7 +91,7 @@ export default function page() {
                   className="rounded-[22px]"
                   src={img}
                 />
-                <p className="text-center font-mcqueen text-lg">{heading}</p>
+                <p className="font-google text-center text-lg">{heading}</p>
               </div>
             ))}
           </div>
@@ -100,7 +99,7 @@ export default function page() {
       </section>
       <section className="container flex flex-col items-center gap-10 max-md:px-5 max-md:py-6 md:min-h-[700px] md:py-10   lg:min-h-[700px]">
         <div className="flex w-full flex-col items-center gap-4">
-          <h1 className="text-center font-mcqueen text-3xl lg:text-[40px] lg:leading-[52px]">
+          <h1 className="font-google text-center text-3xl lg:text-[40px] lg:leading-[52px]">
             <span className="text-primary">Board </span> of
             <span className="text-secondary"> Directors</span>
           </h1>
@@ -117,7 +116,7 @@ export default function page() {
                   className="h-[330px] rounded-[22px]"
                   src={board.image}
                 />
-                <p className="font-mcqueen text-xl font-light">{board.name}</p>
+                <p className="font-google text-xl font-light">{board.name}</p>
                 <p className="text-sm font-light">{board.role}</p>
               </div>
             ))}

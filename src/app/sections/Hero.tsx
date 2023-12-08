@@ -13,7 +13,7 @@ export default function Hero() {
         <h2 className="text-base  uppercase tracking-wide text-section max-sm:text-sm ">
           Tryve Technologies
         </h2>
-        <h1 className="font-mcqueen text-3xl lg:text-[60px] lg:leading-[80px]">
+        <h1 className="font-google text-3xl lg:text-[60px] lg:leading-[80px]">
           Gateway to Digital Success
         </h1>
         <p className="text-base">

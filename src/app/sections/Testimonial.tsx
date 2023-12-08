@@ -23,7 +23,7 @@ export default function Testimonial() {
         </h2>
         {reviews.map((review, idx) => (
           <SwiperSlide key={idx}>
-            <p className="font-mcqueen text-xl font-light md:text-[40px] md:leading-[52.8px]">
+            <p className="font-google text-xl font-light md:text-[40px] md:leading-[52.8px]">
               {review.review}
             </p>
             <h6 className="text-base font-normal ">{review.name}</h6>

@@ -8,10 +8,7 @@ export function Header({ navLinks = links }: HeaderProps) {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-b-muted bg-background">
       <nav className="container mx-auto  flex w-full items-center justify-between bg-background px-6 py-4">
-        <a
-          href="/"
-          className="py rounded-[22px]  bg-secondary px-6 py-2  dark:bg-transparent dark:px-0"
-        >
+        <a href="/" className="py rounded-[22px]  bg-secondary px-6 py-2  ">
           <Logo />
         </a>
         <Navigation navLinks={navLinks} />

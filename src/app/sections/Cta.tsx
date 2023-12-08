@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function Cta() {
   return (
     <section
@@ -12,7 +11,7 @@ export default function Cta() {
           bralewood energy
         </h2>
 
-        <h1 className="font-mcqueen text-3xl lg:text-[40px] lg:leading-[52px]">
+        <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
           A Right Choice that Makes the Difference
         </h1>
         <p className="text-base">
