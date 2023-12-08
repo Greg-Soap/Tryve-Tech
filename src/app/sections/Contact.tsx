@@ -48,7 +48,7 @@ export default function Contact() {
           <ul className="absolute -right-28 top-[50%] z-20 flex translate-y-[-50%] flex-col gap-5 max-sm:right-5 max-sm:items-end">
             {Info.map((i) => (
               <li
-                className="flex w-fit items-center gap-[10px] rounded-[16px] border border-black border-opacity-20 bg-background p-[10px] shadow dark:shadow-round"
+                className="flex w-fit max-w-[95%] items-center gap-[10px] rounded-[16px] border border-black border-opacity-20 bg-background p-[10px] shadow dark:shadow-round"
                 key={i.id}
               >
                 {i.icon} {i.content}
