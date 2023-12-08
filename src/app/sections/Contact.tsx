@@ -33,7 +33,7 @@ export default function Contact() {
         </h2>
         <h1 className="font-google text-3xl leading-[45px]  md:leading-[52.4px] lg:text-[40px]">
           Reach out and
-          <span className="text-secondary"> Connect</span> with us
+          <span className="text-primary"> Connect</span> with us
         </h1>
         <p className="pt-6 text-base font-normal leading-[24px] ">
           Don’t hesitate to reach out to us by using the contact details below
