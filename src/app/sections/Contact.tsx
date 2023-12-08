@@ -1,6 +1,7 @@
 import { ContactForm } from '@/components/ContactForm';
 import React from 'react';
 import { Mail, MapPinIcon, Phone } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Contact() {
   const Info = [
@@ -8,18 +9,13 @@ export default function Contact() {
       id: '1',
       icon: <Phone className="rounded-md bg-secondary  p-1 text-primary" />,
       content: '(+234) 903 0710 741 ',
+      href: 'tel:(+234) 903 0710 741',
     },
     {
       id: '2',
       icon: <Mail className="rounded-md bg-secondary  p-1 text-primary" />,
       content: 'support@tryve.tech',
-    },
-    {
-      id: '3',
-      icon: (
-        <MapPinIcon className="rounded-md bg-secondary  p-1 text-primary" />
-      ),
-      content: '1 Unity Estate, Igbo-Elerin, Ojo, Lagos State, Nigeria',
+      href: 'mailto:support@tryve.tech',
     },
   ];
   return (
@@ -47,11 +43,13 @@ export default function Contact() {
           />
           <ul className="absolute -right-28 top-[50%] z-20 flex translate-y-[-50%] flex-col gap-5 max-sm:right-5 max-sm:items-end">
             {Info.map((i) => (
-              <li
-                className="flex w-fit max-w-[95%] items-center gap-[10px] rounded-[16px] border border-black border-opacity-20 bg-background p-[10px] shadow dark:shadow-round"
-                key={i.id}
-              >
-                {i.icon} {i.content}
+              <li className="" key={i.id}>
+                <Link
+                  href={i.href}
+                  className="flex w-fit  items-center gap-[10px] rounded-[16px] border border-black border-opacity-20 bg-background p-[10px] shadow dark:shadow-round"
+                >
+                  {i.icon} {i.content}
+                </Link>
               </li>
             ))}
           </ul>
