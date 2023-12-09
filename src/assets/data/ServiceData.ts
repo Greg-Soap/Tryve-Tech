@@ -45,6 +45,32 @@ export const SERVICE_PREVIEW = [
 
 export const SERVICE_DATA: Services[] = [
   {
+    id: 2,
+    category: 'Creative Marketing',
+    text: 'We work with brands to create and execute marketing strategies across multiple communication channels.',
+    services: [
+      { title: 'Event Marketing', image: '/images/event marketinf.png' },
+      { title: 'Branding', image: '/images/branding.png' },
+      {
+        title: 'Bill Boards Adverts',
+        image: '/images/bill borad.png',
+      },
+    ],
+  },
+  {
+    id: 3,
+    category: 'Business Analytics',
+    text: 'We work with brands to handle data, checking it, understanding it, and keeping it cloud-friendly.',
+    services: [
+      { title: 'Data audits', image: '/images/data audits.png' },
+      { title: 'Data analysis', image: '/images/data analysis.png' },
+      {
+        title: 'Cloud management',
+        image: '/images/cloud management.png',
+      },
+    ],
+  },
+  {
     id: 1,
     category: 'Digital Marketing',
     text: 'We help brands achieve their marketing goals through digital media and technologies.',
@@ -78,32 +104,6 @@ export const SERVICE_DATA: Services[] = [
       {
         title: 'Leads Conversion',
         image: '/images/leads convention.png',
-      },
-    ],
-  },
-  {
-    id: 2,
-    category: 'Creative Marketing',
-    text: 'We work with brands to create and execute marketing strategies across multiple communication channels.',
-    services: [
-      { title: 'Event Marketing', image: '/images/event marketinf.png' },
-      { title: 'Branding', image: '/images/branding.png' },
-      {
-        title: 'Bill Boards Adverts',
-        image: '/images/bill borad.png',
-      },
-    ],
-  },
-  {
-    id: 3,
-    category: 'Business Analytics',
-    text: 'Description for Business Analytics',
-    services: [
-      { title: 'Data audits', image: '/images/data audits.png' },
-      { title: 'Data analysis', image: '/images/data analysis.png' },
-      {
-        title: 'Cloud management',
-        image: '/images/cloud management.png',
       },
     ],
   },

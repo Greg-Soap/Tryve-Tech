@@ -41,12 +41,12 @@ export default function Contact() {
             alt="contact us"
             className="h-[366px] w-full rounded-2xl bg-secondary md:w-[366px]"
           />
-          <ul className="absolute -right-28 top-[50%] z-20 flex translate-y-[-50%] flex-col gap-5 max-sm:right-5 max-sm:items-end">
+          <ul className="absolute -right-28 top-[50%] z-20 flex translate-y-[-50%] flex-col gap-24 max-sm:right-5 max-sm:items-end">
             {Info.map((i) => (
               <li className="" key={i.id}>
                 <Link
                   href={i.href}
-                  className="flex w-fit  items-center gap-[10px] rounded-[16px] border border-black border-opacity-20 bg-background p-[10px] shadow dark:shadow-round"
+                  className="flex w-fit  items-center gap-[10px] rounded-[16px] border border-black border-opacity-20 bg-background p-[10px] text-xl shadow dark:shadow-round"
                 >
                   {i.icon} {i.content}
                 </Link>

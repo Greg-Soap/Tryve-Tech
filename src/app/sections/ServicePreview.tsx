@@ -27,6 +27,7 @@ export default function ServicePreview() {
             title={t.title}
             image={t.image}
             text={t.category}
+            className="sm:w-[45%]  lg:w-[30%] "
             orientation="vertical"
           />
         ))}

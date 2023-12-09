@@ -3,10 +3,11 @@ import React from 'react';
 interface IService {
   image: string;
   title: string;
-  text: string;
+  text?: string;
   orientation: 'vertical' | 'horizontal';
   width?: number;
   height?: number;
+  className?: string;
 }
 
 export default function ServiceCard({
@@ -16,10 +17,11 @@ export default function ServiceCard({
   orientation = 'vertical',
   width = 90,
   height = 90,
+  className,
 }: IService) {
   return (
     <div
-      className={`flex w-fit max-sm:w-2/5 ${
+      className={` ${className} flex  w-full border-2 border-secondary p-3 shadow-md  ${
         orientation === 'vertical' ? 'flex-col' : 'flex-row items-center'
       }
      gap-3 rounded-[16px] `}
@@ -32,9 +34,11 @@ export default function ServiceCard({
         className={`h-[${height}px] w-[${width}px]`}
       />
       <div className="blogSmall flex flex-col gap-3">
-        <p className=" w-fit rounded-[22px] bg-secondary px-3 py-2 text-sm font-bold text-primary">
-          {text}
-        </p>{' '}
+        {text && (
+          <p className=" w-fit rounded-[22px] bg-secondary px-3 py-2 text-sm font-bold text-primary">
+            {text}
+          </p>
+        )}
         <span className="font-google text-xl font-light leading-[33px]  ">
           {title}
         </span>

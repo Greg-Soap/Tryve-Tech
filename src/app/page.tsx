@@ -3,7 +3,6 @@ import About from './sections/About';
 import Contact from './sections/Contact';
 import Hero from './sections/Hero';
 import Cta from './sections/Cta';
-import Testimonial from './sections/Testimonial';
 import ServicePreview from './sections/ServicePreview';
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <About />
       <ServicePreview />
       <Cta />
-      <Testimonial />
       <Contact />
     </main>
   );

@@ -19,9 +19,9 @@ const footerLinks: FooterLink[] = [
     data: {
       leadText: 'Company',
       items: [
-        { title: 'About us', slug: '/bout' },
+        { title: 'About us', slug: '/about' },
         { title: 'Our Services', slug: '/services' },
-        { title: 'Power Class', slug: '/power-class' },
+        { title: 'Power Class', slug: '/class' },
       ],
     },
   },

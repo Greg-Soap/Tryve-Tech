@@ -29,7 +29,7 @@ const links: NavLink[] = [
   },
   {
     title: 'Who We Are',
-    href: '/bout',
+    href: '/about',
   },
   {
     title: 'Our Services',
@@ -37,7 +37,7 @@ const links: NavLink[] = [
   },
   {
     title: 'Power Class',
-    href: '/power-class',
+    href: '/class',
   },
   {
     title: 'Contact Us',
