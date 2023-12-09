@@ -16,6 +16,11 @@ export default function page() {
             integrity as the cornerstone of our success.
           </p>
         </div>
+        <img
+          src="/images/Union.png"
+          alt="hero"
+          className="w-full rounded-[22px]"
+        />
       </section>
 
       <section className="container flex scroll-m-20 items-center justify-between max-md:flex-col-reverse max-md:gap-4 max-md:px-5 max-md:py-6 md:min-h-[700px] md:py-5   lg:min-h-[800px] lg:flex-row-reverse">

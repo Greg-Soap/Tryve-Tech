@@ -30,7 +30,7 @@ const footerLinks: FooterLink[] = [
     data: {
       leadText: 'Get in touch',
       items: [
-        { title: 'Contact Form ', slug: '/contact' },
+        { title: 'Contact Form ', slug: '#contact' },
         { title: 'support@tryve.tech', slug: 'mailto:support@tryve.tech' },
         { title: '(+234) 903 0710 741', slug: 'tel:(+234) 903 0710 741' },
       ],

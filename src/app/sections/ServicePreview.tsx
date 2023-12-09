@@ -9,7 +9,7 @@ export default function ServicePreview() {
   return (
     <section
       id="service-preview"
-      className="container flex scroll-m-4 flex-col justify-center gap-10 py-8 max-lg:pb-20 max-md:gap-4 max-md:px-5 max-md:py-6 max-sm:scroll-m-20 max-sm:gap-8  sm:min-h-[800px]"
+      className="container flex scroll-m-4 flex-col justify-center gap-10 pt-8 max-lg:pb-20 max-md:gap-4 max-md:px-5 max-md:py-6 max-sm:scroll-m-20 max-sm:gap-8  sm:min-h-[800px]"
     >
       <div className="flex w-full flex-col lg:w-[520px]">
         <h2 className="text-base  uppercase tracking-wide text-section max-sm:text-sm ">

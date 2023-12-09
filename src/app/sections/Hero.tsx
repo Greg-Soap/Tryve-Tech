@@ -24,7 +24,7 @@ export default function Hero() {
           with your audience.
         </p>
         <Button asChild className="w-fit rounded-[20px] bg-secondary font-bold">
-          <Link href="/contact">Contact us</Link>
+          <Link href="#contact">Contact us</Link>
         </Button>
       </div>
       <img
