@@ -17,7 +17,7 @@ export default function Help() {
           variant={'review'}
           className="bg-white font-bold text-secondary"
         >
-          <Link href="/#contact">Contact us</Link>
+          <Link href="//contact">Contact us</Link>
         </Button>
       </div>
     </section>
