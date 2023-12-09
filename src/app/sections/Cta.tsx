@@ -7,6 +7,10 @@ export default function Cta() {
       className="container flex scroll-m-20 items-center justify-between max-md:flex-col max-md:gap-4 max-md:px-5 max-md:py-6 md:min-h-max md:gap-12 lg:min-h-[600px] lg:flex-row-reverse lg:gap-24"
     >
       <div className="flex w-full flex-col gap-4 sm:w-5/12 lg:w-[525px]">
+        <h2 className="text-base  uppercase tracking-wide text-section max-sm:text-sm ">
+          Tryve Technologies
+        </h2>
+
         <h1 className="font-google text-3xl lg:text-[40px] lg:leading-[52px]">
           A Right Choice that Makes the{' '}
           <span className="text-primary">Difference</span>
