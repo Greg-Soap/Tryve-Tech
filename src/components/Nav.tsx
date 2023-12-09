@@ -41,7 +41,7 @@ const links: NavLink[] = [
   },
   {
     title: 'Contact Us',
-    href: '#contact',
+    href: '/contact',
     button: true,
   },
 ];
