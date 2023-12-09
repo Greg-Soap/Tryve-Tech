@@ -43,7 +43,7 @@ export default function Footer() {
 
           <div className="flex gap-6 max-md:flex-col lg:gap-12">
             {footerLinks.map((column) => (
-              <div key={column.column} className="flex-1">
+              <div key={column.column}>
                 <h2 className="font-google mb-4 text-base font-bold capitalize text-white">
                   {column.data.leadText}
                 </h2>
