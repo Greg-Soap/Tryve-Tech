@@ -17,22 +17,24 @@ const footerLinks: FooterLink[] = [
   {
     column: 1,
     data: {
-      leadText: 'Company',
+      leadText: '',
       items: [
         { title: 'About us', slug: '/about' },
         { title: 'Our Services', slug: '/services' },
         { title: 'Power Class', slug: '/class' },
+        { title: 'Blog', slug: '#' },
       ],
     },
   },
   {
     column: 2,
     data: {
-      leadText: 'Get in touch',
+      leadText: '',
       items: [
-        { title: 'Contact Form ', slug: '/contact' },
-        { title: 'support@tryve.tech', slug: 'mailto:support@tryve.tech' },
-        { title: '(+234) 903 0710 741', slug: 'tel:(+234) 903 0710 741' },
+        { title: 'Privacy Policy', slug: '#' },
+        { title: 'Terms and Conditions', slug: '#' },
+        { title: 'Insights', slug: '#' },
+        { title: 'Career', slug: '#' },
       ],
     },
   },

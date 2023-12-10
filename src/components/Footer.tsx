@@ -25,8 +25,9 @@ export default function Footer() {
     <footer className="w-full bg-black">
       <div className="flex flex-col gap-16  pt-14 text-white">
         <div className="container flex flex-col items-center justify-between max-md:items-start max-md:gap-4 md:flex-row">
-          <div className="flex flex-col items-center gap-5">
+          <div className="flex flex-col  gap-5">
             <img src="/images/logo2.png" alt="logo" width={135} height={135} />
+            <p className="text-base">Your Gateway to Digital Success!</p>
             <div className="flex items-center gap-4">
               {socials.map((s) => (
                 <Link
@@ -61,20 +62,21 @@ export default function Footer() {
                 </ul>
               </div>
             ))}
-            <div className="flex w-full flex-col gap-8 sm:w-[240px]">
-              {/* <div className="flex flex-col gap-[18px]">
+            <div className="flex w-full flex-col gap-8 sm:w-[340px]">
+              <div className="flex flex-col gap-[18px]">
                 <h2 className="font-google font-bold">
-                  Sign up to our Newsletter
+                  SUBSCRIBE TO OUR NEWSLETTER
                 </h2>
                 <Input
-                  placeholder="Enter Email Address"
-                  className="rounded-[12px] border border-white border-opacity-20 bg-white bg-opacity-[15]"
+                  placeholder="Get Weekly Updates"
+                  className="border border-white border-opacity-20 bg-transparent "
                 />
-              </div> */}
+              </div>
               <div className="flex flex-col gap-[18px]">
-                <h2 className="font-google font-bold">Address</h2>
+                {/* <h2 className="font-google font-bold">Address</h2> */}
                 <p className="text-sm font-light">
-                  1 Unity Estate, Igbo-Elerin, Ojo, Lagos State, Nigeria
+                  Course content of our recently just (Mastering Social Media
+                  Management) Power Class is available at a giveaway price
                 </p>
               </div>
             </div>

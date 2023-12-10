@@ -88,15 +88,36 @@
 }
 
 .swiper {
-  @apply flex  w-full flex-col justify-center rounded-[20px]  bg-secondary  py-4  md:py-7 lg:py-14 !important;
+  @apply flex  w-full justify-center  !important;
 }
 .swiper-wrapper {
-  @apply order-2 !important;
+  @apply flex items-center justify-center !important;
 }
 .swiper-slide {
-  @apply flex flex-col gap-7 px-7 text-white md:px-14 lg:px-28 !important;
+  @apply flex h-24 items-center justify-center !important;
 }
 
 .blogSmall {
   @apply max-sm:w-full !important;
+}
+/* Add this to your Tailwind CSS styles */
+.progress-bar {
+  height: 40px; /* Set the desired height of the progress bar */
+  background-color: #ccc; /* Background color of the progress bar */
+
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+}
+
+/* Additional styles for better visual appearance */
+.progress-bar-text {
+  color: #fff; /* Text color */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding-right: 8px; /* Adjust as needed for spacing */
 }
