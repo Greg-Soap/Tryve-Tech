@@ -12,7 +12,6 @@ export default function Home() {
       <Partner />
       <Cta />
       <ServicePreview />
-      <Success />
       <MiniContact />
     </main>
   );

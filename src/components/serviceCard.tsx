@@ -8,6 +8,7 @@ interface IService {
   width?: number;
   height?: number;
   className?: string;
+  textClass?: string;
 }
 
 export default function ServiceCard({
@@ -18,6 +19,7 @@ export default function ServiceCard({
   width = 90,
   height = 90,
   className,
+  textClass,
 }: IService) {
   return (
     <div
@@ -41,7 +43,7 @@ export default function ServiceCard({
             {text}
           </p>
         )}
-        <span className="font-google text-xl font-light leading-[33px]  ">
+        <span className={` font-google  font-light leading-[33px]   `}>
           {title}
         </span>
       </div>

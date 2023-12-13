@@ -73,7 +73,7 @@ export default function page() {
         </div>
       </section>
       <section className="container flex scroll-m-20 flex-col items-center justify-between max-md:flex-col-reverse max-md:gap-4 max-md:px-5 max-md:py-6 md:min-h-[700px] md:py-5   lg:min-h-[800px] ">
-        <h1 className="font-google text-3xl lg:text-[64px] lg:leading-[84px]">
+        <h1 className="font-google text-3xl lg:text-5xl">
           TRYVE <span className="text-secondary"> TECHNOLOGIES</span> NIGERIA
         </h1>
         <div className="flex w-full flex-col gap-4">
@@ -155,7 +155,7 @@ export default function page() {
             tackling challenges; you&apos;re poised to turn them into
             opportunities.
           </p>
-          <h1 className="font-google text-3xl lg:text-[64px] lg:leading-[84px]">
+          <h1 className="font-google text-3xl lg:text-5xl">
             Why Choose <span className="text-secondary"> Tryve </span>{' '}
             technologies Nigeria as your Digital Marketing partners in Nigeria?
           </h1>

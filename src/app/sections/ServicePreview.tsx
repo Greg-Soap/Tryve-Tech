@@ -22,13 +22,13 @@ export default function ServicePreview() {
             easier
           </p>
         </div>
-        <div className="flex w-full max-w-full  flex-wrap justify-start gap-4 pt-3  md:pt-6 lg:justify-between lg:gap-5 lg:pt-12">
+        <div className="flex w-full max-w-full  flex-wrap justify-start   lg:justify-between  ">
           {SERVICE_PREVIEW.map((t, idx) => (
             <div className="flex items-center max-sm:w-full" key={idx}>
-              <CheckCircle className="mr-1 rounded-full bg-secondary text-white" />
+              <CheckCircle className="mr-2 rounded-full bg-secondary text-white" />
               <ServiceCard
                 title={t.title}
-                className="  border-none shadow-none sm:w-[250px]   "
+                className="border-none p-[0px] shadow-none  sm:w-[240px]"
                 orientation="vertical"
               />
             </div>

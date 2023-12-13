@@ -34,7 +34,7 @@ export default function Footer() {
                   key={s.id}
                   href={s.slug}
                   target="_blank"
-                  className="rounded-[10px] bg-secondary bg-opacity-20 p-[5px]"
+                  className="rounded-[10px] bg-white  p-[5px]"
                 >
                   {s.icon}
                 </Link>
@@ -69,7 +69,7 @@ export default function Footer() {
                 </h2>
                 <Input
                   placeholder="Get Weekly Updates"
-                  className="border-2 border-secondary  bg-transparent "
+                  className="border-2 border-white  bg-transparent "
                 />
               </div>
               <div className="flex flex-col gap-[18px]">
