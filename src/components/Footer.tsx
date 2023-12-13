@@ -22,7 +22,7 @@ export default function Footer() {
     },
   ];
   return (
-    <footer className="w-full bg-black">
+    <footer className="w-full bg-primary">
       <div className="flex flex-col gap-16  pt-14 text-white">
         <div className="container flex flex-col items-center justify-between max-md:items-start max-md:gap-4 md:flex-row">
           <div className="flex flex-col  gap-5">
@@ -69,7 +69,7 @@ export default function Footer() {
                 </h2>
                 <Input
                   placeholder="Get Weekly Updates"
-                  className="border border-white border-opacity-20 bg-transparent "
+                  className="border-2 border-secondary  bg-transparent "
                 />
               </div>
               <div className="flex flex-col gap-[18px]">

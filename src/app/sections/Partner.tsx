@@ -12,19 +12,18 @@ export default function Partner() {
     '/images/partner05.png',
     '/images/partner04.png',
     '/images/partner06.png',
-    '/images/partner08.webp',
   ];
   return (
     <section className="container flex scroll-m-20 items-center justify-between max-md:flex-col max-md:gap-4 max-md:px-5 max-md:py-6">
       <Swiper
         modules={[Autoplay]}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 5000 }}
         loop={true}
         slidesPerView={4}
       >
         {partnerSlide.map((image, idx) => (
-          <SwiperSlide key={idx}>
-            <img src={image} alt="partner" className="h-20 w-20" />
+          <SwiperSlide key={idx} className="p-2">
+            <img src={image} alt="partner" className="h-16 w-16" />
           </SwiperSlide>
         ))}
       </Swiper>

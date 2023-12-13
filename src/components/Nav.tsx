@@ -114,7 +114,7 @@ function Navigation({ mobile = false, navLinks = [] }: NavigationProps) {
             >
               {button ? (
                 <Button
-                  variant={'outline'}
+                  variant={'secondary'}
                   className={`rounded-[20px] ${mobile && 'mx-4'}`}
                 >
                   <a href={href}>{title}</a>

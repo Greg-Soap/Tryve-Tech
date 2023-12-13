@@ -19,10 +19,9 @@ const footerLinks: FooterLink[] = [
     data: {
       leadText: '',
       items: [
-        { title: 'About us', slug: '/about' },
-        { title: 'Our Services', slug: '/services' },
-        { title: 'Power Class', slug: '/class' },
         { title: 'Blog', slug: '#' },
+        { title: 'FAQs', slug: '#' },
+        { title: 'Career', slug: '#' },
       ],
     },
   },
@@ -31,10 +30,9 @@ const footerLinks: FooterLink[] = [
     data: {
       leadText: '',
       items: [
+        { title: 'Insights', slug: '#' },
         { title: 'Privacy Policy', slug: '#' },
         { title: 'Terms and Conditions', slug: '#' },
-        { title: 'Insights', slug: '#' },
-        { title: 'Career', slug: '#' },
       ],
     },
   },

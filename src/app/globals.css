@@ -23,10 +23,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 196, 96%, 60%;
+    --primary: 235, 66%, 56%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 187, 93%, 15%;
+    --secondary: 38, 100%, 50%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -57,10 +57,10 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 196, 96%, 60%;
+    --primary: 235, 66%, 56%;
     --primary-foreground: 0, 0%, 100%;
 
-    --secondary: 187, 93%, 15%;
+    --secondary: 38, 100%, 50%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -120,4 +120,24 @@
   align-items: center;
   height: 100%;
   padding-right: 8px; /* Adjust as needed for spacing */
+}
+
+.single-services-box {
+  transition: 0.5s;
+}
+.single-services-box:hover {
+  -webkit-box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+  box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.single-services-box:hover img {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.single-services-box img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }

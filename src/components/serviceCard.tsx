@@ -32,7 +32,7 @@ export default function ServiceCard({
           alt="Our Services"
           width={width}
           height={height}
-          className={`h-[${height}px] w-[${width}px]`}
+          className={`h-[${height}px] w-[${width}px] shake-image`}
         />
       )}
       <div className="blogSmall flex flex-col gap-3">

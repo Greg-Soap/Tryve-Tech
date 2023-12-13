@@ -31,7 +31,7 @@ export default function About() {
         </p>
         <Button
           asChild
-          variant={'outline'}
+          variant={'secondary'}
           className="w-fit rounded-[20px] font-bold"
         >
           <Link href="/about">Learn More</Link>

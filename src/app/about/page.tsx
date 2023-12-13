@@ -16,6 +16,11 @@ export default function page() {
             integrity as the cornerstone of our success.
           </p>
         </div>
+        <img
+          src="/images/Union.png"
+          alt="hero"
+          className="w-full rounded-[22px]"
+        />
       </section>
 
       <section className="container flex scroll-m-20 items-center justify-between max-md:flex-col-reverse max-md:gap-4 max-md:px-5 max-md:py-6 md:min-h-[700px] md:py-5   lg:min-h-[800px] lg:flex-row-reverse">
@@ -254,7 +259,7 @@ export default function page() {
 
       <section className="container flex flex-col items-center gap-10 max-md:px-5 max-md:py-6 md:min-h-[700px] md:py-10   lg:min-h-[700px]">
         <div className="flex w-full flex-col items-center gap-4">
-          <h1 className="font-google text-center text-3xl lg:text-[40px] lg:leading-[52px]">
+          <h1 className="text-center font-google text-3xl lg:text-[40px] lg:leading-[52px]">
             <span className="text-primary">Meet </span> The
             <span className="text-secondary"> Board</span>
           </h1>
